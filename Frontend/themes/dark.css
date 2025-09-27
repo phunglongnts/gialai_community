@@ -1,0 +1,22 @@
+:root {
+    /* Dark Theme Colors */
+    --primary-gradient: linear-gradient(135deg, #1e3a8a 0%, #7c3aed 100%);
+    --primary-blue: #1e3a8a;
+    --primary-purple: #7c3aed;
+
+    --text-primary: #f9fafb;
+    --text-secondary: #d1d5db;
+    --text-muted: #9ca3af;
+
+    --bg-primary: #111827;
+    --bg-white: #1f2937;
+    --bg-card: linear-gradient(145deg, #1f2937 0%, #374151 100%);
+
+    --border-light: rgba(255, 255, 255, 0.1);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+}
+
+body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+}
