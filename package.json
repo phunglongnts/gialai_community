@@ -1,0 +1,24 @@
+{
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "css-loader": "^7.1.2",
+    "cssnano": "^7.1.1",
+    "mini-css-extract-plugin": "^2.9.4",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
+    "sass": "^1.93.2",
+    "webpack": "^5.101.3",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  },
+  "dependencies": {
+    "chroma-js": "^3.1.2"
+  },
+   "scripts": {
+    "dev": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "build:css": "sass src/styles:public/themes/css --watch",
+    "serve": "python -m http.server 3000",
+    "clean": "rm -rf build/*"
+  }
+}
